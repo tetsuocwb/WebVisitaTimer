@@ -1,0 +1,12 @@
+<base>:
+    displayText: displayText
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'vertical'
+        Display:
+            id: displayText
+            font_size: self.height -17
+            #text: self.__dict__
+        Button:
+            text: "oi"
+            on_press: root.start()
