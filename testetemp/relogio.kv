@@ -5,8 +5,18 @@
         orientation: 'vertical'
         Display:
             id: displayText
-            font_size: self.height -17
-            #text: self.__dict__
-        Button:
-            text: "oi"
-            on_press: root.start()
+            font_size: self.height - 17
+            # text: self.__dict__
+
+        BoxLayout:
+            Button:
+                text: "oi"
+                on_press: root.start()
+
+            Button:
+                text: "oi"
+                on_press: root.stop()
+
+            Button:
+                text: "oi"
+                on_press: root.reset()
